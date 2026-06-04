@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Movie Project</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+    <header>
+        <h1>Movie Project</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href='#home'>Home</a></li>
+            <li><a href='#movies'>Top Movies</a></li>
+            <li><a href='#contact'>Contact</a></li>
+        </ul>
+    </nav>
+    <section id='hero' class='hero'>
+        <h2>Welcome to the Movie Project</h2>
+        <p>Explore the best movies and manage your watchlist.</p>
+    </section>
+    <section id='movies' class='movies'>
+        <h2>Top Movies</h2>
+        <div class='movie-list'>
+            <!-- Movie items will be dynamically added by JavaScript -->
+        </div>
+    </section>
+    <section id='login' class='login'>
+        <h2>Login</h2>
+        <form id='loginForm'>
+            <input type='text' id='username' placeholder='Username' required>
+            <input type='password' id='password' placeholder='Password' required>
+            <button type='submit'>Login</button>
+        </form>
+    </section>
+    <section id='contact' class='contact'>
+        <h2>Contact Us</h2>
+        <form id='contactForm'>
+            <input type='email' id='email' placeholder='Email' required>
+            <textarea id='message' placeholder='Your message' required></textarea>
+            <button type='submit'>Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2026 Movie Project. All rights reserved.</p>
+    </footer>
+    <script src='script.js'></script>
+</body>
+</html>
